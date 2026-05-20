@@ -29,14 +29,14 @@ const Header = () => {
     <header
       className={`fixed top-0 left-0 w-full z-50 transition-all duration-300 ${
         scrolled
-          ? " backdrop-blur-md shadow-gray-800 shadow-md py-4"
-          : "bg-transparent py-6"
+          ? " backdrop-blur-md shadow-gray-800 shadow-md py-3"
+          : "bg-transparent py-5"
       }`}
     >
       <div className="max-w-6xl mx-auto px-6 lg:px-10 flex items-center justify-between">
         {/* Logo */}
         <div className="cursor-pointer">
-          <h1 className="text-3xl font-extrabold tracking-wide text-orange-600">
+          <h1 className="text-3xl font-extrabold tracking-wide text-orange-400">
             Bokra
           </h1>
           <p className="text-md text-gray-200 -mt-1 tracking-widest">
@@ -62,7 +62,7 @@ const Header = () => {
           ))}
         </nav>
         <div className="flex items-center justify-center gap-x-5">
-          <button className="max-sm:hidden bg-orange-500 hover:bg-orange-600 text-white px-2 sm:px-5 py-2 rounded-lg transition-all duration-300 cursor-pointer
+          <button className="max-sm:hidden bg-orange-400 hover:bg-orange-500 text-white px-2 sm:px-5 py-2 rounded-lg transition-all duration-300 cursor-pointer
             shadow-gray-900 shadow-lg
           ">
             Get Quote

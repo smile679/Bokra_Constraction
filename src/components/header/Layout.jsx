@@ -29,7 +29,7 @@ const Header = () => {
     <header
       className={`fixed top-0 left-0 w-full z-50 transition-all duration-300 ${
         scrolled
-          ? "bg-white/90 backdrop-blur-md shadow-lg py-4"
+          ? " backdrop-blur-md shadow-gray-800 shadow-md py-4"
           : "bg-transparent py-6"
       }`}
     >
@@ -62,7 +62,7 @@ const Header = () => {
           ))}
         </nav>
         <div className="flex items-center justify-center gap-x-5">
-          <button className="bg-orange-500 hover:bg-orange-600 text-white px-2 sm:px-5 py-2 rounded-lg transition-all duration-300 cursor-pointer
+          <button className="max-sm:hidden bg-orange-500 hover:bg-orange-600 text-white px-2 sm:px-5 py-2 rounded-lg transition-all duration-300 cursor-pointer
             shadow-gray-900 shadow-lg
           ">
             Get Quote

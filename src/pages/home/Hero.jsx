@@ -17,7 +17,7 @@ const Hero = () => {
 
     return (
       <>
-        <section className="h-screen w-full bg-[url(@/assets/cons66.png)] bg-cover bg-center">
+        <section id="home" className="h-screen w-full bg-[url(@/assets/cons66.png)] bg-cover bg-center">
           <div className="w-full max-w-6xl mx-auto h-full flex items-center justify-between px-5 pt-30">
             <div className="flex flex-1 flex-col text-white py-30">
               <h3 className="w-fit px-4 py-1 text-center bg-orange-100 text-orange-500 rounded-2xl leading-none m-0">

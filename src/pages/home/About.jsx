@@ -5,7 +5,7 @@ const About = () => {
   return (
     <>
       <section className="w-full py-10 md:py-20 px-5" id="about">
-        <h1 className="text-center text-2xl font-bold py-5">About us</h1>
+        <h1 className="text-center text-3xl font-bold py-5">About us</h1>
         <div className="w-full max-w-6xl mx-auto flex max-md:flex-col-reverse items-center gap-5">
           <div className="w-full flex flex-1 justify-content items-center ">
             <img src={cons11} alt="about" className="w-full max-w-2xl object-contain" />
@@ -15,10 +15,10 @@ const About = () => {
               <h3 className="text-md font-bold">
                 Company Introduction Section
               </h3>
-              <h2 className="text-2xl font-bold text-orange-400">
+              <h2 className="text-3xl font-bold text-orange-400">
                 Building Strong Foundation For The Future
               </h2>
-              <p className="w-full max-w-lg text-sm font-semibold pt-5">
+              <p className="w-full max-w-2xl text-md font-semibold pt-5">
                 We are a trusted Level 5 construction company specializing in
                 commercial, industrial, and infrastructure projects. With a
                 commitment to quality, safety, and modern engineering, we

@@ -18,7 +18,7 @@ const About = () => {
               <h2 className="text-2xl font-bold text-orange-400">
                 Building Strong Foundation For The Future
               </h2>
-              <p className="w-full max-w-lg text-sm font-semibold">
+              <p className="w-full max-w-lg text-sm font-semibold pt-5">
                 We are a trusted Level 5 construction company specializing in
                 commercial, industrial, and infrastructure projects. With a
                 commitment to quality, safety, and modern engineering, we

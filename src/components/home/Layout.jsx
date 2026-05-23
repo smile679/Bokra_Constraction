@@ -2,6 +2,7 @@
 
 import About from "@/pages/home/About";
 import Hero from "@/pages/home/Hero";
+import Services from "@/pages/home/Services";
 
 
 const Home = () => {
@@ -9,7 +10,8 @@ const Home = () => {
     return <>
         <section className="w-full">
           <Hero/>
-          <About/>
+          <About />
+          <Services />
         </section>
     </>
 }

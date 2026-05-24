@@ -3,6 +3,7 @@
 import About from "@/pages/home/About";
 import Hero from "@/pages/home/Hero";
 import Services from "@/pages/home/Services";
+import Projects from "@/pages/home/Projects";
 
 
 const Home = () => {
@@ -12,6 +13,7 @@ const Home = () => {
           <Hero/>
           <About />
           <Services />
+          <Projects />
         </section>
     </>
 }

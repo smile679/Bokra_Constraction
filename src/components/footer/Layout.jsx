@@ -9,7 +9,7 @@ import {
 
 export default function Footer() {
   return (
-    <footer id="contact" className="bg-slate-950 text-white">
+    <footer id="contact" className="bg-orange-200">
       <div className="max-w-7xl mx-auto px-6 lg:px-12 py-16">
         {/* Top Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 border-b border-white/10 pb-12">
@@ -19,7 +19,7 @@ export default function Footer() {
               Build<span className="text-orange-500">Core</span>
             </h2>
 
-            <p className="text-slate-400 mt-5 leading-relaxed">
+            <p className="text-black mt-5 leading-relaxed">
               Trusted Level 5 construction company delivering modern commercial,
               industrial, and infrastructure solutions with precision and
               quality.
@@ -54,7 +54,7 @@ export default function Footer() {
           <div>
             <h3 className="text-lg font-semibold mb-5">Quick Links</h3>
 
-            <ul className="space-y-3 text-slate-400">
+            <ul className="space-y-3 text-black">
               <li>
                 <a href="#" className="hover:text-orange-500 transition">
                   Home
@@ -91,7 +91,7 @@ export default function Footer() {
           <div>
             <h3 className="text-lg font-semibold mb-5">Services</h3>
 
-            <ul className="space-y-3 text-slate-400">
+            <ul className="space-y-3 text-black">
               <li>Commercial Construction</li>
               <li>Industrial Projects</li>
               <li>Renovation & Remodeling</li>
@@ -129,7 +129,7 @@ export default function Footer() {
             © 2026 BuildCore Construction. All rights reserved.
           </p>
 
-          <div className="flex items-center gap-6 text-sm text-slate-500">
+          <div className="flex items-center gap-6 text-sm text-black">
             <a href="#" className="hover:text-orange-500 transition">
               Privacy Policy
             </a>

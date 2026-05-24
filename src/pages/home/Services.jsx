@@ -113,11 +113,11 @@ const Services = () => {
         <p className="text-base font-semibold text-gray-600 mt-4 max-w-xl mx-auto leading-relaxed">
           As a certified{" "}
           <span className="text-orange-500 font-black">Level 5</span> finishing
-          contractor, we deliver precision finishing across all trades on
-          time, on spec, and built to last.
+          contractor, we deliver precision finishing across all trades on time,
+          on spec, and built to last.
         </p>
         <p className="text-lg text-orange-500 mt-2 font-bold" lang="am">
-          እኛ ብቁ የደረጃ 5 ግንባታ ተቋራጮች ነን — ሁሉንም የፍጻሜ ሥራዎች በጥራት እናቀርባለን።
+          ጥራት፣ አመኔታ እና ብቃት — የእኛ መሠረት ነው፡፡
         </p>
       </div>
 
@@ -147,11 +147,11 @@ const Services = () => {
 
               {/* Title */}
               <div>
-                <p className="font-black text-sm text-gray-900 group-hover:text-white transition-colors duration-300">
+                <p className="font-black text-md text-gray-900 group-hover:text-white transition-colors duration-300">
                   {title}
                 </p>
                 <p
-                  className="text-xs font-bold text-orange-400 mt-0.5 group-hover:text-orange-100 transition-colors duration-300"
+                  className="text-md font-bold text-orange-400 mt-0.5 group-hover:text-orange-100 transition-colors duration-300"
                   lang="am"
                 >
                   {amharic}
@@ -159,7 +159,7 @@ const Services = () => {
               </div>
 
               {/* Description */}
-              <p className="text-xs font-semibold text-gray-500 leading-relaxed flex-1 group-hover:text-orange-50 transition-colors duration-300">
+              <p className="text-sm font-semibold text-gray-500 leading-relaxed flex-1 group-hover:text-orange-50 transition-colors duration-300">
                 {description}
               </p>
 

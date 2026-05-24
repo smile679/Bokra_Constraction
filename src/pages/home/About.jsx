@@ -66,10 +66,10 @@ const About = () => {
         {/* Text content */}
         <div className="flex flex-col gap-6 flex-1">
           <div>
-            <h3 className="text-3xl font-bold text-orange-400 leading-tight">
+            <h3 className="text-3xl font-extrabold text-orange-400 leading-tight text-shadow-sm">
               Building Strong Foundations For The Future
             </h3>
-            <p className="text-base text-gray-600 mt-4 leading-relaxed">
+            <p className="text-md text-gray-600 mt-4 leading-relaxed">
               We are a trusted Level 5 construction company specializing in
               commercial, industrial, and infrastructure projects. With a
               commitment to quality, safety, and modern engineering, we deliver
@@ -102,9 +102,9 @@ const About = () => {
                     <Icon className="text-orange-400" size={20} />
                   </div>
                   <div className="flex flex-col">
-                    <p className="font-bold text-sm">{title}</p>
+                    <p className="font-bold text-md">{title}</p>
                     <p
-                      className="text-sm text-orange-400 font-bold mt-0.5"
+                      className="text-md text-orange-400 font-bold mt-0.5"
                       lang="am"
                     >
                       {amharic}

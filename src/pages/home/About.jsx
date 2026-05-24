@@ -47,7 +47,7 @@ const About = () => {
         <p className="text-sm font-semibold uppercase tracking-widest text-orange-400 mb-2">
           Who We Are
         </p>
-        <h2 className="text-4xl md:text-5xl font-black text-gray-900">
+        <h2 className="text-3xl md:text-4xl font-black text-gray-900">
           About Us
         </h2>
       </div>
@@ -97,7 +97,7 @@ const About = () => {
                 key={title}
                 className="flex flex-col gap-3 p-4 rounded-xl border border-gray-100 shadow-sm hover:shadow-md hover:border-orange-200 transition-all duration-200"
               >
-                <div className="flex gap-5 items-center">
+                <div className="flex max-sm:flex-col gap-5 items-center">
                   <div className="flex items-center justify-center w-10 h-10 rounded-full bg-orange-50">
                     <Icon className="text-orange-400" size={20} />
                   </div>

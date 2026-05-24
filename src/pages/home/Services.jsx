@@ -96,7 +96,7 @@ const Services = () => {
   return (
     <section
       className="w-full py-10 md:py-20 px-5"
-      id="services"
+      id="service"
       style={{
         background:
           "linear-gradient(135deg, #fff7ed 0%, #ffedd5 60%, #fed7aa 100%)",

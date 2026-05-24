@@ -53,7 +53,7 @@ const Hero = () => {
                   threshold={0.1}
                   rootMargin="-100px"
                   textAlign="start"
-                  onLetterAnimationComplete={handleAnimationComplete}
+                  // onLetterAnimationComplete={handleAnimationComplete}
                   showCallback
                 />
               </h1>
@@ -70,7 +70,7 @@ const Hero = () => {
                   threshold={0.1}
                   rootMargin="-100px"
                   textAlign="start"
-                  onLetterAnimationComplete={handleAnimationComplete}
+                  // onLetterAnimationComplete={handleAnimationComplete}
                   showCallback
                 />
               </h1>

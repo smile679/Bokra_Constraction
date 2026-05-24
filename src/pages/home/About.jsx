@@ -43,17 +43,17 @@ const About = () => {
   return (
     <section className="w-full py-10 md:py-20 px-5" id="about">
       {/* Section heading */}
-      <div className="text-center mb-10">
-        <p className="text-sm font-semibold uppercase tracking-widest text-orange-400 mb-2">
-          Who We Are
-        </p>
-        <h2 className="text-3xl md:text-4xl font-black text-gray-900">
-          About Us
-        </h2>
-      </div>
+        <div className="text-center mb-10">
+          <p className="text-sm font-semibold uppercase tracking-widest text-orange-400 mb-2">
+            Who We Are
+          </p>
+          <h2 className="text-3xl md:text-4xl font-black text-gray-900">
+            About Us
+          </h2>
+        </div>
 
       {/* Main content */}
-      <div className="w-full max-w-6xl mx-auto flex max-md:flex-col-reverse items-center gap-10">
+      <div className="w-full max-w-6xl mx-auto flex flex-row-reverse  max-md:flex-col-reverse items-center gap-10">
         {/* Image */}
         <div className="w-full h-full flex flex-1 justify-center items-center drop-shadow-orange-500 drop-shadow-3xl">
           <img

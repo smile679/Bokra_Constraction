@@ -11,6 +11,30 @@ import {
 
 const services = [
   {
+    icon: Hammer,
+    title: "General Finishing Works",
+    amharic: "አጠቃላይ የፍጻሜ ሥራዎች",
+    description:
+      "End-to-end finishing packages covering all trades — we coordinate everything from first fix to handover so you get a seamless, punch-list-free result.",
+    highlights: [
+      "Full Project Finishing",
+      "Snagging & Handover",
+      "Multi-trade Coordination",
+    ],
+  },
+  {
+    icon: Lightbulb,
+    title: "Electrical Finishing",
+    amharic: "የኤሌክትሪክ ፍጻሜ ሥራ",
+    description:
+      "Final fix electrical works including switch plates, socket installation, lighting fixtures, and conduit finishing to a clean, professional standard.",
+    highlights: [
+      "Lighting Fixtures",
+      "Switch & Socket Plates",
+      "Conduit Finishing",
+    ],
+  },
+  {
     icon: Layers,
     title: "Plastering & Rendering",
     amharic: "ፕላስተር እና ሬንደሪንግ",
@@ -64,30 +88,6 @@ const services = [
       "Door Frames & Architraves",
       "Skirting & Coving",
       "Custom Cabinetry",
-    ],
-  },
-  {
-    icon: Lightbulb,
-    title: "Electrical Finishing",
-    amharic: "የኤሌክትሪክ ፍጻሜ ሥራ",
-    description:
-      "Final fix electrical works including switch plates, socket installation, lighting fixtures, and conduit finishing to a clean, professional standard.",
-    highlights: [
-      "Lighting Fixtures",
-      "Switch & Socket Plates",
-      "Conduit Finishing",
-    ],
-  },
-  {
-    icon: Hammer,
-    title: "General Finishing Works",
-    amharic: "አጠቃላይ የፍጻሜ ሥራዎች",
-    description:
-      "End-to-end finishing packages covering all trades — we coordinate everything from first fix to handover so you get a seamless, punch-list-free result.",
-    highlights: [
-      "Full Project Finishing",
-      "Snagging & Handover",
-      "Multi-trade Coordination",
     ],
   },
 ];

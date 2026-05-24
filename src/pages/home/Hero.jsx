@@ -10,9 +10,9 @@ import SplitText from "@/components/motion/splitText";
 
 const Hero = () => {
 
-   const handleAnimationComplete = () => {
-     console.log("All letters have animated!");
-   };
+  //  const handleAnimationComplete = () => {
+  //    console.log("All letters have animated!");
+  //  };
    
 
     return (
@@ -36,7 +36,7 @@ const Hero = () => {
                   threshold={0.1}
                   rootMargin="-100px"
                   textAlign="start"
-                  onLetterAnimationComplete={handleAnimationComplete}
+                  // onLetterAnimationComplete={handleAnimationComplete}
                   showCallback
                 />
               </h1>

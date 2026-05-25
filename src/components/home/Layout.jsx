@@ -4,6 +4,7 @@ import About from "@/pages/home/About";
 import Hero from "@/pages/home/Hero";
 import Services from "@/pages/home/Services";
 import Projects from "@/pages/home/Projects";
+import Featured from "@/pages/home/Featured";
 
 
 const Home = () => {
@@ -13,6 +14,7 @@ const Home = () => {
           <Hero/>
           <About />
           <Services />
+          <Featured />
           <Projects />
         </section>
     </>
